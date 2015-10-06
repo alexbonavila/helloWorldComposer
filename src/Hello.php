@@ -1,6 +1,10 @@
 <?php
 
-require __DIR__ . "/vendor/autoload.php";
+namespace Com\Iesebre\Dam2\alexbonavila\helloWorldComposer;
+
+use Faker\Factory;
+
+require __DIR__ . "/../vendor/autoload.php";
 
 class Hello
 {
@@ -10,8 +14,8 @@ class Hello
      * Hello constructor.
      */
     public function __construct(){
-        $this->faker = $this->faker;
-        $this->faker =Faker\Factory::create();
+
+        $this->faker = Factory::create();
     }
 
     public function say_hello(){
