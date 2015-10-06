@@ -1,14 +1,21 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: alumne
- * Date: 6/10/15
- * Time: 19:31
- */
+require __DIR__ . "/vendor/autoload.php";
+
 class Hello
 {
-    public function say_hello(){
-        echo "Hola Mon\n";
+    public $faker;
+
+    /**
+     * Hello constructor.
+     */
+    public function __construct(){
+        $this->faker = $this->faker;
+        $this->faker =Faker\Factory::create();
     }
+
+    public function say_hello(){
+        echo "Hola ". $this->faker->name."\n";
+    }
+
 }
