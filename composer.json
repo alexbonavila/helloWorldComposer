@@ -7,5 +7,7 @@
             "email": "alexbonavila@iesebre.com"
         }
     ],
-    "require": {}
+    "require": {
+        "fzaninotto/Faker": "^1.5"
+    }
 }
