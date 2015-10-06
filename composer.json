@@ -1,0 +1,11 @@
+{
+    "name": "alexbonavila/hello-world-composer",
+    "description": "bla bla bla",
+    "authors": [
+        {
+            "name": "alexbonavila",
+            "email": "alexbonavila@iesebre.com"
+        }
+    ],
+    "require": {}
+}
